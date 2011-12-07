@@ -1,0 +1,102 @@
+body {
+	padding-top: 0;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+#masthead .wrapper {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #00338D;
+  border-bottom-width: .25em;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+}
+
+#masthead {
+  color: white;
+  position: relative;
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: small;
+}
+
+#masthead div {
+  float: left;
+}
+
+#masthead h1 {
+  color: white;
+  font-size:small;
+}
+
+#masthead ul {
+  list-style: none;
+}
+
+nav ul {
+  height: 6em;
+  margin-right: 0;
+  margin-left: auto;
+}
+.ie nav ul {
+  width: 15em;
+  padding-left: 0;
+}
+nav li {
+  list-style: none;
+  float: left;
+  width: 33.33333%;
+}
+nav a {
+  color: white;
+  display: block;
+  position: relative;
+  padding: 1.875em 0 1.125em;
+  line-height: 1.5em;
+  text-align: center;
+}
+nav .icon {
+  display: block;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  height: 1.2em;
+}
+
+
+h1, h2 {
+  color: #A40800;
+}
+
+
+#flyer {
+  background-color: #EEEEEE;
+  background-image: url(eofa-background-streetperf.jpg);
+  background-position: center center;
+}
+
+.caption-box {
+  left: 50%;
+  top: 50%;
+  width: 33%;
+}
+
+.caption-arrow {
+  height: 15px;
+  background-position-x: 75%;
+  background-image: url(eofa-captionarrow.png);
+  background-repeat: no-repeat;
+}
+
+.caption-text {
+  background-color: #A40800;
+  padding: 0.7em;
+  border-radius: 0.7em;
+  color: white;
+}

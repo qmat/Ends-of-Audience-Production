@@ -5,6 +5,7 @@ body {
 .wrapper {
   position: relative;
   margin: 0 auto;
+  height:100px;
 }
 
 #masthead .wrapper {
@@ -69,22 +70,10 @@ nav .icon {
   height: 1.2em;
 }
 
-
-h1, h2 {
-  color: #A40800;
-}
-
-
-#flyer {
-  background-color: #EEEEEE;
-  background-image: url(eofa-background-streetperf.jpg);
-  background-position: center center;
-}
-
 .caption-box {
-  left: 50%;
-  top: 50%;
-  width: 33%;
+  width: 60%;
+  padding-top:20px;
+  margin-left:250px;
 }
 
 .caption-arrow {
@@ -99,4 +88,99 @@ h1, h2 {
   padding: 0.7em;
   border-radius: 0.7em;
   color: white;
+}
+
+.logo {
+ position:absolute;
+ right: 30px;
+ top:20px;
+}
+
+.nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+.nav {
+  margin-left:10px;
+  margin-top:19px;
+
+}
+
+.nav a {
+  color:#fff;
+  text-decoration:none;
+}
+
+.nav a:hover {
+  text-decoration:underline;
+ }
+
+.icon {
+  width:70px;
+  height:40px;
+  background-image: url(eofa-icon-cfp.png);
+  background-position-x: center;
+  background-repeat:no-repeat;
+  vertical-align:text-bottom;
+}
+
+.listtext {
+  margin-top: 43px;
+  text-align:center;
+  width:70px;
+}
+
+.header-strip h1 {
+  padding-top:5px;
+  line-height:30px;
+  letter-spacing:0;
+}
+
+.header-strip li {
+
+	margin-top: -7px;
+
+}
+
+.header-strip {
+  margin-left:20px;
+}
+
+#flyer {
+  background-color: #EEEEEE;
+  background-image: url(eofa-background-streetperf.jpg);
+  background-position: top;
+}
+
+.flyerheader {
+  padding-top:20px;
+}
+
+
+.flyerheader h1 {
+  padding-top:140px;
+  text-align:right;
+  color: #A40800;
+  line-height:56px;
+  font-style:bold;
+  font-style:italic;
+  background-image: url(transparrent.png);
+  font-size:50px;
+  padding-right:30px;
+}
+
+.flyerheader h2 {
+  font-style:bold;
+  background-image: url(transparrent.png);
+  font-style:italic;
+  color: #A40800;
+  text-align:right;
+  font-size:20px;
+  padding-right:30px;
+}
+
+
+#contentwrapper {
+  width:100%;
 }

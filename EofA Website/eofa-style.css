@@ -11,29 +11,26 @@ body {
   clear: both;
   top: 0;
   left: 0;
-  background-color: #00338D;
   border-bottom-width: .25em;
   border-bottom-color: white;
   border-bottom-style: solid;
+  background-color: #EEEEEE;
 }
 
 #masthead {
   color: white;
   position: relative;
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
-  font-size: small;
 }
 
 #masthead div {
   float: left;
-}
-
-#masthead h1 {
-  color: white;
-  font-size:small;
+  background-color: #00338D;
 }
 
 #masthead ul {
+  color: white;
+  font-size: small;
   list-style: none;
 }
 
@@ -59,24 +56,26 @@ nav a {
   line-height: 1.5em;
   text-align: center;
 }
-nav .icon {
-  display: block;
-  font-size: 1.25em;
-  line-height: 1.2em;
-  height: 1.2em;
-}
 
 .caption-box {
-  width: 60%;
   padding-top:20px;
-  margin-left:250px;
+  padding-bottom:20px;
+  margin-left:50%;
+  margin-right:10%;
 }
 
-.caption-arrow {
-  height: 15px;
+.caption-arrow-top {
   background-position-x: 75%;
   background-image: url(eofa-captionarrow.png);
   background-repeat: no-repeat;
+  padding-top: 15px;
+}
+
+.caption-arrow-left {
+  background-position-y: 25%;
+  background-image: url(eofa-captionarrow-left.png);
+  background-repeat: no-repeat;
+  padding-left: 15px;
 }
 
 .caption-text {
@@ -116,10 +115,21 @@ nav .icon {
 .icon {
   width:70px;
   height:40px;
-  background-image: url(eofa-icon-cfp.png);
   background-position-x: center;
   background-repeat:no-repeat;
   vertical-align:text-bottom;
+}
+
+.icon-cfp {
+  background-image: url(eofa-icon-cfp.png);
+}
+
+.icon-resources {
+  background-image: url(eofa-icon-resources.png);
+}
+
+.icon-contact {
+  background-image: url(eofa-icon-contact.png);
 }
 
 .listtext {
@@ -132,12 +142,16 @@ nav .icon {
   padding-top:5px;
   line-height:30px;
   letter-spacing:0;
+  color: white;
+  font-size:small;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  background-image:none;
 }
 
 .header-strip li {
-
 	margin-top: -7px;
-
 }
 
 .header-strip {
@@ -145,23 +159,30 @@ nav .icon {
 }
 
 #flyer {
-  background-color: #EEEEEE;
   background-image: url(eofa-background-streetperf.jpg);
   background-position: center center;
 }
 
-.flyerheader h1 {
+/*
+#cfp {
+  background-image: url(eofa-background-arts2.jpg);
+  background-position: top center;
+  background-repeat: repeat-y;
+}
+*/
+
+h1 {
   text-align:right;
   color: #A40800;
   line-height:56px;
-  font-style:bold;
   font-style:italic;
+  font-weight:bolder;
   background-image: url(transparrent.png);
   font-size:50px;
   padding-right:30px;
 }
 
-.flyerheader h2 {
+h2 {
   font-style:bold;
   background-image: url(transparrent.png);
   font-style:italic;
@@ -170,7 +191,6 @@ nav .icon {
   font-size:20px;
   padding-right:30px;
 }
-
 
 #contentwrapper {
   width:100%;

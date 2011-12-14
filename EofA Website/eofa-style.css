@@ -58,8 +58,8 @@ nav a {
 }
 
 .caption-box {
-  padding-top:20px;
-  padding-bottom:20px;
+  padding-top:0px;
+  padding-bottom:0px;
   margin-left:50%;
   margin-right:10%;
 }
@@ -75,6 +75,10 @@ nav a {
   background-position-y: 25%;
   background-image: url(eofa-captionarrow-left.png);
   background-repeat: no-repeat;
+  padding-left: 15px;
+}
+
+.caption-arrow-leftspacer {
   padding-left: 15px;
 }
 
@@ -192,6 +196,30 @@ h2 {
   padding-right:30px;
 }
 
+.toplink {
+  float:left;
+  
+  width:15px;
+  height:30px;
+  margin-top: 5px;
+  margin-left: 40px;
+  
+  background-position: center top;
+  background-repeat:no-repeat;
+  background-image: url(eofa-icon-uparrow.png);
+  
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: small;
+  color: #A40800;
+  text-decoration:none;
+}
+
+.toplink a:hover {
+  text-decoration:underline;
+ }
+
 #contentwrapper {
   width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }

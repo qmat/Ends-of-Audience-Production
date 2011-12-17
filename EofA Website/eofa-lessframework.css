@@ -127,6 +127,33 @@ px      68    160    252    */
 		width: 252px;
 		padding: 48px 34px 60px;
 	}
+
+	.caption-box {
+	  margin-left:0;
+	  margin-right:0;
+	}
+	
+	h1 {
+	  line-height:40px;
+	  font-size:40px;
+	  padding-right:10px;
+	}
+
+	h2 {
+	  line-height: 20px;
+	  font-size:20px;
+	  padding-right:10px;
+	}
+	
+	.logo {
+		position:relative;
+		float:right;
+		clear:left;
+		top:auto;
+		right:auto;
+		margin-top: 10px;
+		margin-bottom:10px;
+	}
 	
 }
 
@@ -145,6 +172,11 @@ px      68    160    252    344    436    */
 	body {
 		width: 436px;
 		padding: 36px 22px 48px;
+	}
+	
+	.caption-box {
+	  margin-left:10%;
+	  margin-right:10%;
 	}
 	
 }

@@ -41,6 +41,7 @@ ul {
   color: white;
   font-size: small;
   list-style: none;
+  padding: 0;
 }
 
 nav ul {
@@ -69,8 +70,8 @@ nav a {
 .caption-box {
   padding-top:0px;
   padding-bottom:0px;
-  margin-left:10%;
-  margin-right:50%;
+  margin-left:50%;
+  margin-right:10%;
 }
 
 .caption-arrow-top {
@@ -218,11 +219,10 @@ h2 {
 
 .toplink {
   float:left;
-  
   width:15px;
   height:30px;
   margin-top: 5px;
-  margin-left: 40px;
+  margin-left: 20px;
   
   background-position: center top;
   background-repeat:no-repeat;

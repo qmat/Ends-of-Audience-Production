@@ -87,7 +87,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
 	width: 896px;
-	padding: 72px 48px 84px;
+	padding: 48px 48px 84px;
 	background: rgb(232,232,232);
 	color: rgb(60,60,60);
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
@@ -124,8 +124,8 @@ px      68    160    252    */
 @media only screen and (max-width: 767px) {
 	
 	body {
-		width: 252px;
-		padding: 48px 34px 60px;
+		width: 320px;
+		padding: 0px 0px 0px;
 	}
 
 	.caption-box {
